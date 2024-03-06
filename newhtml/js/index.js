@@ -291,3 +291,24 @@ function OnDocumentReady(_0x4a7579) {
             return ![];
     });
 }
+const wrapBar = document.querySelector('.wrap-bar');
+const wrapIcons = document.querySelector('.header-page .wrap-sidebar .blue-bar .wrap-icons');
+const bluebar = document.querySelector('.header-page .wrap-sidebar .blue-bar');
+
+wrapBar.addEventListener('click', function() {
+  const wrapIconsStyle = window.getComputedStyle(wrapIcons);
+  const windowWidth = window.innerWidth;
+  if (wrapIconsStyle.display === 'none' || wrapIconsStyle.display === '') {
+    wrapIcons.style.display = 'flex';
+    bluebar.style.width = '100%';
+  } else {
+    wrapIcons.style.display = 'none';
+    if(innerWidth <= 992)
+    {
+        bluebar.style.width = '50px';
+    }
+    else{
+        bluebar.style.width = '66px';
+    }
+  }
+});

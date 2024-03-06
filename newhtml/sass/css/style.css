@@ -1514,7 +1514,7 @@ html,body {
     margin: 0;
     padding: 0;
     font-family: "DINRoundOT",sans-serif;
-    color: #146735;
+    color: #ffffff;
     font-size: .975rem;
     font-weight: 400;
     line-height: normal;
@@ -1551,7 +1551,7 @@ html,body {
 
 a {
     text-decoration: none;
-    color: #146735
+    color: #ffffff
 }
 
 .mf-container {
@@ -1644,16 +1644,16 @@ input,select,button,textarea {
 }
 
 input::placeholder {
-    color: #146735 !important;
+    color: #ffffff !important;
     opacity: 1
 }
 
 input:-ms-input-placeholder {
-    color: #146735 !important
+    color: #ffffff !important
 }
 
 input::-ms-input-placeholder {
-    color: #146735 !important
+    color: #ffffff !important;
 }
 
 .btn {
@@ -1806,7 +1806,7 @@ input::-ms-input-placeholder {
 }
 
 .header-page .wrap-sidebar .blue-bar {
-    background: #0c7141;
+    background: #df1f26;
     box-shadow: 0px 4px 4px rgba(0,0,0,.25);
     border-radius: 18px;
     text-align: center;
@@ -2276,8 +2276,8 @@ input::-ms-input-placeholder {
 
 .page-title .main-logo {
     position: absolute;
-    left: 0;
-    top: 40px;
+    left: -80px;
+    top: 105px;
     max-width: 100px
 }
 
@@ -2560,14 +2560,14 @@ body .hidden-section {
 
 .list-win .form-group input.form-control {
     margin-right: 10px;
-    border: 1px solid #146735;
+    border: 2px solid #db320d;
     box-sizing: border-box;
     border-radius: 15px;
     line-height: 50px;
     text-align: center;
     padding: 0 20px;
     background: none;
-    color: #146735
+    color: #ffffff
 }
 
 .list-win .form-group .btn {
@@ -2588,7 +2588,7 @@ body .hidden-section {
     overflow: hidden;
     margin-bottom: 0;
     background: #fff;
-    color: #146735
+    color: #67141a
 }
 
 .list-win .table-responsive table thead tr {
@@ -4016,7 +4016,7 @@ table tr td.column-qt {
     }
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen  {
     .wrap-pdf-frame {
         margin:2rem auto 0 auto;
         padding: 1rem
@@ -5336,6 +5336,7 @@ table tr td.column-qt {
     .home-bottles {
         width: 235px
     }
+    
 }
 
 /*# sourceMappingURL=style.css.map */
