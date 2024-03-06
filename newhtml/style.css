@@ -1,0 +1,58 @@
+@font-face {
+	font-family: "DINRoundOT";
+	src: url("fonts/DINRoundOT-Bold.woff2") format("woff2"), url("fonts/DINRoundOT-Bold.woff") format("woff");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "DINRoundOT";
+	src: url("fonts/DINRoundOTLight.woff2") format("woff2"), url("fonts/DINRoundOTLight.woff") format("woff");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "DINRoundOT";
+	src: url("fonts/DINRoundOTMedium.woff2") format("woff2"), url("fonts/DINRoundOTMedium.woff") format("woff");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "DINRoundOT";
+	src: url("fonts/DINRoundOT.woff2") format("woff2"), url("fonts/DINRoundOT.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+    font-family: 'sfu_futura_fullregular';
+    src: url('fonts/sfu_futura_full.woff2') format('woff2'),
+         url('fonts/sfu_futura_full.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'sfu_futuraextrabold';
+    src: url('fonts/sfufuturaextrabold.woff2') format('woff2'),
+         url('fonts/sfufuturaextrabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'sfu_futurabold';
+    src: url('fonts/sfufuturabold.woff2') format('woff2'),
+         url('fonts/sfufuturabold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'utm_neutraregular';
+    src: url('fonts/utm_neutra.woff2') format('woff2'),
+         url('fonts/utm_neutra.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
